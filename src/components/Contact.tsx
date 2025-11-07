@@ -1,4 +1,4 @@
-import { Mail } from "lucide-react";
+import { Mail, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -28,6 +28,19 @@ const Contact = () => {
               secureplanetall@gmail.com
             </a>
           </Button>
+          
+          <div className="mt-8 pt-8 border-t border-border/30">
+            <Button 
+              variant="outline"
+              className="border-primary/50 hover:border-primary hover:bg-primary/10"
+              asChild
+            >
+              <a href="https://sites.google.com/view/privacy-policy-passvault/home" target="_blank" rel="noopener noreferrer">
+                <FileText className="mr-2 h-4 w-4" />
+                Privacy Policy
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
