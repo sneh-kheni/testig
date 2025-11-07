@@ -31,9 +31,12 @@ const Hero = () => {
         <Button 
           size="lg"
           className="group bg-gradient-to-r from-primary to-secondary hover:shadow-glow transition-all duration-300 text-lg px-8 py-6 animate-in slide-in-from-bottom-4 duration-700 delay-500"
+          asChild
         >
-          <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
-          Download Now
+          <a href="https://docs.google.com/uc?export=download&id=1rf5rJHcqEx1OD4xr_pqJ3msUwEi0ZwIa" download>
+            <Download className="mr-2 h-5 w-5 group-hover:animate-bounce" />
+            Download Now
+          </a>
         </Button>
       </div>
     </section>
